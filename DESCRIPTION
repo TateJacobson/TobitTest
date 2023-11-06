@@ -1,0 +1,11 @@
+Package: TobitTest
+Type: Package
+Title: Linear Hypothesis Testing for High Dimensional Tobit Models
+Version: 1.0
+Date: 2023-11-03
+Author: Tate Jacobson
+Maintainer: Tate Jacobson <tate.jacobson@oregonstate.edu>
+Description: Compute partial penalized estimators and partial penalized Wald, score, and likelihood ratio test statistics for high dimensional Tobit models.
+License: GPL (>= 2)
+Imports: Rcpp (>= 1.0.11)
+LinkingTo: Rcpp, RcppArmadillo

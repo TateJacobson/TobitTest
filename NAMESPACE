@@ -1,0 +1,4 @@
+useDynLib(TobitTest, .registration=TRUE)
+importFrom(Rcpp, evalCpp)
+importFrom(stats, sd)
+export(tobitADMM, pick_lambda_tobit, compute_wald, compute_score, compute_lrt)
